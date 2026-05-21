@@ -1,0 +1,35 @@
+{
+  "name": "simple-rag-chatbot",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "ingest": "tsx scripts/ingest.ts",
+    "chroma": "docker compose up -d chroma",
+    "chroma:down": "docker compose down"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.3.20",
+    "@langchain/core": "^0.3.30",
+    "@langchain/openai": "^0.3.17",
+    "@xenova/transformers": "^2.17.2",
+    "chromadb": "^1.9.4",
+    "dotenv": "^16.4.7",
+    "langchain": "^0.3.10",
+    "next": "14.2.18",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.10",
+    "@types/react": "^18.3.17",
+    "@types/react-dom": "^18.3.5",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

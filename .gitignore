@@ -1,0 +1,14 @@
+node_modules
+.next
+out
+dist
+.env
+.env.local
+*.log
+.DS_Store
+
+# Chroma persistence (when running locally via docker-compose)
+data/chroma
+
+# Cached transformer models
+.cache
