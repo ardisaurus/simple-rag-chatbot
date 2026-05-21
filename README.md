@@ -13,6 +13,8 @@ The model is instructed to answer **only** from retrieved context and to say
 it doesn't know when the answer isn't there. Each answer ships with the chunks
 that grounded it.
 
+![Simple RAG Chatbot — illustration](2d7125dc6d4d7972.gif)
+
 ## Requirements
 
 Software you need installed locally before you start:
